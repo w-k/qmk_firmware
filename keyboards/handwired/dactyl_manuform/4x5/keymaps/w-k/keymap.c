@@ -160,7 +160,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   RESET, ____, ____, ____, ____,         KC_MS_WH_UP,    ____,       KC_MS_UP,       ____,     ____,   \
   ____,  ____, ____, ____, ____,         KC_MS_WH_DOWN,  KC_MS_LEFT, KC_MS_DOWN, KC_MS_RIGHT,  ____,   \
   ____,  ____, ____, ____, ____,         ____,           KC_ACL0   , KC_ACL1   , KC_ACL2    ,         ____,   \
-         ____, ____,                                                 ____,       ____,                 \
+         KC_ACL2, ____,                                                 ____,       ____,                 \
                      ____, ____,         KC_MS_BTN1,     KC_MS_BTN2,                                   \
                      ____, ____,         KC_MS_BTN3,     ____,                                         \
                      ____, ____,         ____,           ____                                          \
